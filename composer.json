@@ -1,0 +1,15 @@
+{
+    "name": "zaporylie/drupal_settings",
+    "description": "Allows you to get values for read only settings that are stored in settings.php",
+    "type": "drupal-drush",
+    "require": {
+        "drush/drush": "^8.1"
+    },
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Jakub Piasecki",
+            "email": "jakub@nymedia.no"
+        }
+    ]
+}
