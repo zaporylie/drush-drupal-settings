@@ -1,5 +1,5 @@
 <?php
-namespace Drupal\drupal_settings\Commands;
+namespace Drupal\Commands;
 
 use Drush\Commands\DrushCommands;
 
@@ -17,7 +17,7 @@ class DrupalSettingsCommands extends DrushCommands {
   /**
    * Get setting.
    *
-   * @command setting-get
+   * @command setting:get
    * @param $aetting setting
    * @param array $options An associative array of options whose values come from cli, aliases, config, etc.
    * @usage drush setting-get hash_salt
