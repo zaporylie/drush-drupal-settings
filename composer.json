@@ -5,6 +5,11 @@
     "require": {
         "drush/drush": "^8.1 || ^9@beta"
     },
+    "autoload": {
+        "psr-4": {
+            "Drupal\\drupal_settings": "src"
+        }
+    },
     "license": "GPL-2.0+",
     "authors": [
         {

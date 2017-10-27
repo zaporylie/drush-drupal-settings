@@ -1,0 +1,5 @@
+services:
+  drupal_settings.commands:
+    class: \Drupal\drupal_settings\Commands\DrupalSettingsCommands
+    tags:
+      - { name: drush.command }
