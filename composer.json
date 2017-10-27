@@ -7,7 +7,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Drupal\\drupal_settings": "src"
+            "Drupal\\drupal_settings\\": "src"
         }
     },
     "license": "GPL-2.0+",
