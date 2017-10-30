@@ -12,13 +12,14 @@ class SettingsCommands extends DrushCommands {
   /**
    * Command description here.
    *
-   * @command setting-get
-   * @param $setting Setting.
-   * @usage settings-get hash_salt
+   * @command setting:get
+   * @param $setting Get setting.
+   * @usage setting:get hash_salt
    *   Get setting hash_salt
    * @bootstrap configuration
+   * @aliases setting-get
    */
-  public function commandName($setting) {
+  public function get($setting) {
     print_r(Settings::get($setting));
   }
 
