@@ -3,7 +3,7 @@
     "description": "Allows you to get values for read only settings that are stored in settings.php",
     "type": "drupal-drush",
     "require": {
-        "drush/drush": "^8.1 || ^9@beta"
+        "drush/drush": "^9@beta"
     },
     "license": "GPL-2.0+",
     "authors": [
