@@ -7,7 +7,7 @@ use Drush\Commands\DrushCommands;
 /**
  * Command file for setting-get.
  */
-class DrupalSettingsCommands extends DrushCommands {
+class SettingsCommands extends DrushCommands {
 
   /**
    * Command description here.
